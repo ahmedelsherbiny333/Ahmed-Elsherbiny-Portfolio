@@ -7,19 +7,14 @@
     color: rgb(215, 210, 210);
 }
 
-body {
-    background-color: noon;
-    text-decoration-color: gray;
-}
 
 
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-shadow: 0px 0px 5px #cd3cd5;
+    text-shadow: 5px 5px 20px #cd3cd5;
     box-shadow: 10px 10px 40px #cd3cd5;
-    border-bottom: #cd3cd5;
 }
 
 .header h1 {
@@ -45,13 +40,11 @@ body {
 }
 
 a {
-    color: rgb(215, 210, 210);
     text-decoration: solid;
 }
 
 a:hover {
     color: #cd3cd5;
-    font-weight: noon;
     text-decoration: double;
 }
 
@@ -63,18 +56,32 @@ p {
     font-size: 16px;
 }
 
-
-
 .hero {
-    height: 80px;
-    width: 80px;
-    margin-bottom: 25px;
+    height: 400px;
+    width: 100%;
+    margin: 25px 0px;
     background-image: url(../images/Webdeveloper\ background.jpeg);
     background-size: cover;
-    opacity: 70%;
+    opacity: 30%;
     background-position: center;
 }
 
+.hero p {
+    width: 25%;
+    display: inline-flex;
+    background: none;
+    position: relative; 
+    bottom: -200px;
+    right: -580px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero:hover {
+    text-shadow: 5px 5px 10px #cd3cd5;
+    font-weight: bold;
+}
+    
 
 
 .content {
