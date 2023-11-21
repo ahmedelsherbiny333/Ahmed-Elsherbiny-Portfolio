@@ -7,14 +7,14 @@
     color: rgb(215, 210, 210);
 }
 
-
-
-
 .header {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-shadow: 5px 5px 20px #cd3cd5;
     box-shadow: 10px 10px 40px #cd3cd5;
+    
 }
 
 .header h1 {
@@ -27,6 +27,9 @@
 }
 
 .header ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex: ;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,7 +38,7 @@
 }
 
 .header ul li {
-    display: inline-block;
+    display: inline-flex;
     margin-left: 25px;
 }
 
@@ -49,14 +52,9 @@ a:hover {
 }
 
 .hero {
+    display: flex;
+    justify-content: right;
     padding: 20px;
-    align-items: center;
-}
-p {
-    font-size: 16px;
-}
-
-.hero {
     height: 400px;
     width: 100%;
     margin: 25px 0px;
@@ -65,14 +63,15 @@ p {
     opacity: 30%;
     background-position: center;
 }
+p {
+    font-size: 16px;
+}
 
 .hero p {
-    width: 25%;
     display: inline-flex;
     background: none;
-    position: relative; 
-    bottom: -200px;
-    right: -580px;
+    align-items: end;
+    width: 25%;
     font-size: 20px;
     text-align: center;
 }
@@ -82,25 +81,48 @@ p {
     font-weight: bold;
 }
     
-
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.content section {
-    margin-bottom: 20px;
-    padding: 50px;
+.aboutme {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    padding: 30px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     color: #ffffff;
 }
 
-.content img {
-    max-height: 200px;
+.aside {
+    text-align: end;
+    width: 1000px;
+    padding: 0px 25px 0px 0px;
+    border-right: 3px solid #cd3cd5;
+    font-size: 30px;
+}
+
+.aboutme p {
+    width: 100%;
+    display: inline-flex;
+    padding: 0px 25px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.projects {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    padding: 30px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+
+.projects p {
+    width: 100%;
+    display: inline-flex;
+    padding: 0px 25px;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .content h2 {
