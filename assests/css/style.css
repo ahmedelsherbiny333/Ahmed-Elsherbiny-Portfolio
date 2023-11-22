@@ -122,32 +122,54 @@ p {
     padding: 30px;
     font-size: 20px;
     line-height: 25px;
+    border: solid white;
 }
 .horiseon-img {
     position: relative;
-   justify-content: right;
+    justify-content: right;
     width: 100%;
     height: auto;
     font-size: 20px;
     line-height: 25px;
-    border: 3px solid #cd3cd5;
+    border: 1px solid #cd3cd5;
 }
 
 .text-overlay {
-position: relative;
-display: inline;
-background-color: #cd3cd5;
-top: -100px;
-left: 20px
+    position: relative;
+    display: inline;
+    background-color: #cd3cd5;
+    top: -100px;
+    left: 20px;
+
 }
 .text-overlay-para {
     position: relative;
     display: inline;
     background-color: #cd3cd5;
     top: -80px;
-    left: 0px
+    left: 20px;
     }
 
+.calc-img {
+    position: relative;
+    justify-content: right;
+    display: inline-block;
+    width: 35%;
+    height: auto;
+    font-size: 20px;
+    line-height: 25px;
+    border: 1px solid #cd3cd5;  
+}
+.weather-img {
+    position: relative;
+    display: inline-block;
+    justify-content: left;
+    width: 35%;
+    height: auto;
+    font-size: 20px;
+    line-height: 25px;
+    border: 1px solid #cd3cd5;  
+}
 
 .content h2 {
     margin-bottom: 20px;
@@ -195,10 +217,17 @@ left: 20px
 
 
 
-.footer {
-    padding: 30px;
-    clear: both;
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 20px;
+}
+
+.footer li {
+    display: inline-flex;
+    margin-right: 10px;
+    text-decoration: underline;
 }
