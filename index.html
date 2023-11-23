@@ -13,25 +13,19 @@
     <!-- Header -->
     <header class="header">
         <h1>Ahmed <span class="Elsherbiny">Elsherbiny</span></h1>
-        <ul>
-            <li>
-                    <a href="#About-me">About me</a>
-            </li>
-            
-            <li>
-                    <a href="#Projects">Projects</a>
-            </li>
-            
-            <li>
-                    <a href="#Contact-me">Contact me</a>
-            </li>
+        <nav>
+            <ul> 
+                <li><a href="#About-me">About me</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact-me">Contact me</a></li>
         </ul>
+        </nav>
     </header>
 
-    <!-- Navbar -->
-    <nav class="hero">
+    <!-- hero -->
+    <section class="hero">
         <p>Welocome to my Portfolio, here you will find cool facts about my experince and previous work</p>
-    </nav>
+    </section>
         
 
     <!-- Section -->
@@ -53,33 +47,40 @@
             </section>
         </section>
 
-        <section class="projects-container" >
-            <aside class="aside">Projects</aside>
-            <figure class="projects"id="Projects">
-                <a href="https://ahmedelsherbiny333.github.io/Challenge_week_1/">
-                    <img class="horiseon-img" src="./assests/images/Horizon website.jpg" alt="Horiseon website project"/></a>
-                    <p class="text-overlay">Horiseon website</p>
-                    <p class="text-overlay-para">HTML/CSS</p>
+        <section class="projects-aside-container">
+            <aside class="aside"id="Projects">Projects</aside>
+            <section class="projects-container">
+                <section>
+                    <figure class="horiseon-project">
+                        <a href="https://ahmedelsherbiny333.github.io/Challenge_week_1/">
+                            <img class="horiseon-img" src="./assests/images/Horizon website.jpg" alt="Horiseon website project"/></a>
+                    </figure>
+                    <div class="horiseon-text-container">
+                        <h2 class="horiseon-text-title">Horiseon</h2>
+                        <p class="horiseon-text-para">HTML/CSS</p>
+                    </div>
+                </section>
 
-                    <img class="calc-img" src="./assests/images/Calc.jpeg" alt="online Calculator">
-                    <p class="text-overlay">Calculator</p>
-                    <p class="text-overlay-para">HTML/CSS/JAVA</p>
-
-                    <img class="weather-img" src="./assests/images/Weather.jpeg" alt="online Calculator">
-                    <p class="text-overlay">Calculator</p>
-                    <p class="text-overlay-para">HTML/CSS/JAVA</p>
+                <section class="calc_weather-projects">
+                    <figure class="calc_weather">
+                        <img class="calc-img" src="./assests/images/Calc.jpeg" alt="online Calculator">
+                            <div class="projects-text-container">
+                            <h2 class="text-overlay-title">Calculator</h2>
+                            <p class="text-overlay-para">HTML/CSS/JAVA</p>
+                            </div>   
+                    </figure>
                 
-                   
-
-                
-            </figure>
-                
+                    <figure class="calc_weather">
+                        <img class="weather-img" src="./assests/images/Weather.jpeg" alt="online Calculator">
+                        <div class="projects-text-container">
+                            <h2 class="text-overlay-title">Weather</h2>
+                            <p class="text-overlay-para">HTML/CSS/JAVA</p>
+                        </div>      
+                    </figure>
+                </section>
             </section>
         </section>
 
-
-    <!-- Aside -->
-  
     
     <!-- Footer -->
     <footer class="footer">
